@@ -1,0 +1,31 @@
+
+.footer-bar{
+	background: #232f3e;
+	line-height: 2rem;
+	color: #fff;
+}
+
+.footer-logo{
+	font-size: 2rem;
+}
+
+.footer-col{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.footer-make-tag{
+    background: #131a22;
+} 
+
+.footer-make-tag{
+	color: #fff;
+}
+
+.footer-link{
+	color: #fff;
+}
+
+.footer-link:hover{
+	color: #fff;
+}

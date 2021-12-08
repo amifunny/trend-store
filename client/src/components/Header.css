@@ -1,0 +1,16 @@
+.brand-name{
+	color: #546fa5 !important;
+}
+
+.header-bar{
+	background: #eaeded;
+    /*background: #db8505;*/
+}
+
+.nav-bar{
+	font-size: 1rem;
+}
+
+.brand-logo{
+	font-size: 2rem;
+}

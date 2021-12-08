@@ -1,0 +1,16 @@
+
+.search-form{
+	width: 100%;
+}
+
+.search-form input{
+	display: block !important;
+	width: 60% !important;
+}
+
+.btn-search{
+	background: #546fa5;
+    color: white;
+    border-color: #546fa5;
+    height: 45px;
+}

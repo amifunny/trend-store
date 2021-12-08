@@ -1,0 +1,18 @@
+.price-tag{
+	color: #db8505;
+}
+
+.btn-golden{
+    background-color: #db8505;
+    color: white;
+}
+
+.btn-golden:hover{
+    background-color: #ff9900;
+    color: white;
+}
+
+.btn-golden:active{
+    background-color: #ff9900;
+    color: white;
+}
