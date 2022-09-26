@@ -76,3 +76,11 @@ Use gunicorn to run backend server and serve static build files -
 
     $ gunicorn backend.wsgi
 
+
+## Screenshots
+
+<img src="screenshot/home.png" width="700px" />
+<img src="screenshot/product.png" width="700px" />
+<img src="screenshot/checkout.png" width="700px" />
+<img src="screenshot/admin.png" width="700px" />
+
