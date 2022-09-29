@@ -28,7 +28,7 @@ function Footer() {
 	const email = "hemantsingh .buenodev @gmail.com"
     
     const githubID = "https://github.com/amifunny/"
-    const angelLink = "https://angel.com"
+    const angelLink = "https://angel.co/u/hemant-kumar-singh-21"
 
     return (
         <footer>

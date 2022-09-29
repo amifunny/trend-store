@@ -1,6 +1,13 @@
 virenv/*
 virenv
 virenv/
+
+venv/*
+venv
+venv/
+
+.env
+
 client/node_modules
-node_modules
+
 package-lock.json

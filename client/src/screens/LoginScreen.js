@@ -10,8 +10,13 @@ import { login } from '../actions/userActions'
 import './LoginScreen.css'
 
 function LoginScreen({ location, history }) {
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+
+    const demoUser = {
+        "email": "example123@email.com",
+        "password": "example123"
+    }
+    const [email, setEmail] = useState(demoUser.email)
+    const [password, setPassword] = useState(demoUser.password)
 
     const dispatch = useDispatch()
 
@@ -66,6 +71,16 @@ function LoginScreen({ location, history }) {
                     Sign In
                 </Button>
             </Form>
+
+            <Row className='py-3'>
+                <Col>
+                    <div className='p-3 border border-info'>
+                        <div>Demo user - check out!</div>
+                        <div>Email - {demoUser.email}</div>
+                        <div>Password - {demoUser.password}</div>
+                    </div>
+                </Col>
+            </Row>
 
             <Row className='py-3'>
                 <Col>
